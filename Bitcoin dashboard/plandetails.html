@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>indix</title>
+    <script
+      src="https://kit.fontawesome.com/83387431ee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="src/dist/css/style.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/res.css" />
+    <style>
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main-wrapper">
+      <header class="topbar" data-navbarbg="skin5">
+        <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+          <div class="navbar-header" data-logobg="skin5">
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ti-menu ti-close"></i
+            ></a>
+
+            <a class="navbar-brand" href="../index.html">
+              <span class="logo-text">
+                <img
+                  src="src/assets/images/logo.png"
+                  alt="homepage"
+                  class="light-logo des_logo"
+                />
+              </span>
+            </a>
+            <!-- <a class="topbartoggler d-block d-lg-none waves-effect waves-light" href="javascript:void(0)"
+            data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a> -->
+            <ul class="navbar-nav ml-auto d-block d-md-none">
+              <li class="nav-item dropdown">
+                <a
+                  class="
+                    nav-link
+                    dropdown-toggle
+                    text-muted
+                    waves-effect waves-dark
+                    pro-pic
+                  "
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><img
+                    src="src/assets/images/users/1.png"
+                    alt="user"
+                    class="rounded-circle"
+                    width="31"
+                /></a>
+                <div
+                  class="
+                    dropdown-menu dropdown-menu-right
+                    user-dd
+                    animated
+                    my_new_li_mob
+                  "
+                >
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarSupportedContent"
+            data-navbarbg="skin5"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="
+                    nav-link
+                    dropdown-toggle
+                    text-muted
+                    waves-effect waves-dark
+                    pro-pic
+                  "
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><img
+                    src="src/assets/images/users/1.png"
+                    alt="user"
+                    class="rounded-circle"
+                    width="31"
+                /></a>
+                <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+              <li
+                class="
+                  my_new_li
+                  d-none d-xxl-none d-xl-none d-lg-none d-md-block
+                "
+              >
+                <a class="nav-toggler" href="javascript:void(0)"
+                  ><i class="ti-menu ti-close"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <aside class="left-sidebar" data-sidebarbg="skin5">
+        <div class="scroll-sidebar">
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav" class="p-t-30">
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="index.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-view-dashboard"></i
+                  ><span class="hide-menu">Dashboard</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="plandetails.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-library-plus"></i
+                  ><span class="hide-menu">Buy hashpower</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="finance.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-history"></i
+                  ><span class="hide-menu">Finance transactions</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="upgrades.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-cart"></i
+                  ><span class="hide-menu">My orders</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="visits.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-google-earth"></i
+                  ><span class="hide-menu">Visits</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="refferal.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-access-point"></i
+                  ><span class="hide-menu">Affiliate Program </span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="setting.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i>
+                  <span class="hide-menu">Setting </span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="bounty.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-deviantart"></i>
+                  <span class="hide-menu">Bounty Program </span></a
+                >
+              </li>
+              <div class="nav_offer_div">
+                <div class="nav_offer_title_div">
+                  <p class="mb-0">
+                    Affiliate Program <br />
+                    <span>30%</span>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    You can invite your friends or share your referral link on
+                    social networks, blogs or forums online.
+                  </p>
+                </div>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <section class="main_section">
+          <div>
+            <div class="plandetails_title_div">
+              <h3>CHOOSE YOUR VERSION</h3>
+              <p>
+                CHOOSE PREMIUM VERSION BELOW TO INCREASE YOUR AFFILIATE PROGRAM
+                BONUS AND EARN MUCH MORE!
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                <div class="card my_card shadow">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-title">Basic</h5>
+                      <small>Individual</small>
+                      <br /><br />
+                      <span class="h2">$8</span>/month <br /><br />
+                    </div>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item my_card_border_list1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Cras justo odio
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Dapibus ac facilisis in
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                      <li class="list-group-item my_card_border_list2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body text-center">
+                    <button class="btn btn_2 btn_new btn_new2">Select</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                <div class="card my_card shadow">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-title">Basic</h5>
+                      <small>Individual</small>
+                      <br /><br />
+                      <span class="h2">$8</span>/month <br /><br />
+                    </div>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item my_card_border_list1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Cras justo odio
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Dapibus ac facilisis in
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                      <li class="list-group-item my_card_border_list2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body text-center">
+                    <button class="btn btn_2 btn_new btn_new2">Select</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                <div class="card my_card shadow">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-title">Basic</h5>
+                      <small>Individual</small>
+                      <br /><br />
+                      <span class="h2">$8</span>/month <br /><br />
+                    </div>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item my_card_border_list1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Cras justo odio
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Dapibus ac facilisis in
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                      <li class="list-group-item my_card_border_list2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body text-center">
+                    <button class="btn btn_2 btn_new btn_new2">Select</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                <div class="card my_card shadow">
+                  <div class="card-body">
+                    <div class="text-center p-3">
+                      <h5 class="card-title">Basic</h5>
+                      <small>Individual</small>
+                      <br /><br />
+                      <span class="h2">$8</span>/month <br /><br />
+                    </div>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                  <div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item my_card_border_list1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Cras justo odio
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Dapibus ac facilisis in
+                      </li>
+                      <li class="list-group-item">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                      <li class="list-group-item my_card_border_list2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-check"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"
+                          />
+                        </svg>
+                        Vestibulum at eros
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body text-center">
+                    <button class="btn btn_2 btn_new btn_new2">Select</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="src/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="src/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="src/dist/js/sidebarmenu.js"></script>
+    <script src="src/dist/js/custom.min.js"></script>
+  </body>
+</html>

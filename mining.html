@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- bootstrap end -->
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/70652ddcd3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome end -->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/res.css" />
+  </head>
+
+  <body>
+    <section
+      class="mining_img"
+      style="background-image: url('src/img/mbg.jpeg')"
+    >
+      <div>
+        <div class="mining_iner_div shadow">
+          <a href="index.html">
+            <div
+              class="mining_iner_logo"
+              style="background-image: url('src/img/logo2.png')"
+            ></div>
+          </a>
+          <p id="error"></p>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your BTC Address"
+              id="bitcoin"
+            />
+          </div>
+          <button class="btn index_link3" onclick="CheckValidBicoin()">
+            Start Mining
+          </button>
+          <!-- <a
+            href="Bitcoin dashboard/index.html"
+            class="btn nav_link_btn2 contact_page_btn"
+            >Start Mining</a
+          > -->
+        </div>
+      </div>
+    </section>
+    <script>
+      function CheckValidBicoin() {
+        let val = $("#bitcoin").val();
+        if (/^[a-zA-Z0-9]{20,50}$/.test(val)) {
+          window.location.href = "Bitcoin dashboard/index.html";
+        } else {
+          $("#error").html("Invalid Bitcoin address");
+        }
+      }
+    </script>
+  </body>
+</html>

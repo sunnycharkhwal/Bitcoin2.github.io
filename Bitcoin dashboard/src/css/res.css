@@ -1,0 +1,62 @@
+@media (max-width: 576px) {
+  .bounty_form_div small {
+    font-size: 12px;
+  }
+  .bounty_form_div {
+    padding: 1rem;
+    margin: 0;
+    margin-bottom: 0rem;
+  }
+  .bounty_icon {
+    width: 50px;
+  }
+  .bounty_icon_title {
+    font-size: 13px;
+  }
+  .setting_tab_btn_div {
+    text-align: center;
+  }
+  .setting_div {
+    margin: 0;
+  }
+  .refferal_div_top {
+    margin: 0;
+  }
+  .visits_div {
+    padding: 0rem;
+  }
+  .my_tabel_main_div {
+    display: block;
+  }
+  .plandetails_title_div {
+    padding: 0;
+  }
+  .plandetails_title_div p {
+    font-size: 13px;
+  }
+  .finance_div {
+    padding: 0 0rem;
+  }
+  .finance_div2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .index_main_2_text_btn_div {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .index_number_btn_div {
+    margin-bottom: 1rem;
+  }
+  .my_btn {
+    margin: 1rem 0rem;
+  }
+  .index_top_title_div {
+    text-align: center;
+  }
+  .index_top_title_div h5 {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=res.css.map */

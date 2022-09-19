@@ -1,0 +1,384 @@
+@media (max-width: 576px) {
+  .why_choose_new {
+    width: 29rem;
+    height: 23rem;
+  }
+  .as_body {
+    font-size: 14px;
+  }
+  .as_card button {
+    font-size: 14px;
+  }
+  .socle_top_div ul li {
+    font-size: 14px;
+  }
+  .socle_title h5 {
+    font-size: 18px;
+  }
+  .mining_iner_logo {
+    width: 8rem;
+    height: 3rem;
+  }
+  .map_contact {
+    height: 18rem;
+  }
+  .form_title {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .form_title h3 {
+    font-size: 30px;
+  }
+  .page_contact {
+    padding: 0 0;
+  }
+  .number_top2 {
+    margin-bottom: 1rem;
+  }
+  .terms h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+  }
+  .terms ul {
+    padding-left: 5px;
+  }
+  .terms p {
+    font-size: 14px;
+  }
+  .about_icon_img {
+    height: 20rem;
+  }
+  .faq_tab {
+    display: block;
+    padding: 0 15px;
+  }
+  .faq_tab button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .faq_header a {
+    letter-spacing: normal;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .payout_table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .page_top {
+    padding: 2rem 1rem;
+  }
+  .page_top h3 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 7px;
+  }
+  .page_top p {
+    font-size: 13px;
+  }
+  .contact_div {
+    padding: 2rem 1rem;
+    display: block;
+    text-align: center;
+  }
+  .contact_div a {
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .contact_div p {
+    font-size: 30px;
+  }
+  .contact_div p i {
+    font-size: 30px;
+  }
+  .footer_logo {
+    margin: auto;
+  }
+  .socle_icon {
+    margin-top: 1rem;
+  }
+  .footer_col {
+    text-align: left;
+  }
+  .faq_img {
+    width: 18rem;
+    height: 14rem;
+    margin: auto;
+  }
+  .testimonials_col_div {
+    padding: 0 1rem;
+  }
+  .testimonials_bg {
+    padding: 2rem 0;
+  }
+  .index_info_img {
+    width: 18rem;
+    height: 18rem;
+    margin: auto;
+  }
+  .index_info_text h3 {
+    font-size: 28px;
+  }
+  .index_info_text p {
+    font-size: 14px;
+  }
+  .index_info_text {
+    text-align: center;
+  }
+  .benefits_text {
+    text-align: center;
+  }
+  .benefits_text p {
+    font-size: 14px;
+  }
+  .benefits_img {
+    margin: auto;
+  }
+  .banner_img {
+    width: 18rem;
+    height: 14rem;
+    margin-top: 3rem;
+  }
+  .why_div p {
+    font-size: 14px;
+  }
+  .top_title {
+    margin-top: 3rem;
+  }
+  .top_title h3 {
+    font-size: 28px;
+  }
+  .top_title p {
+    font-size: 13px;
+  }
+  .why_choose {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .why_choose_text {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  .why_choose_text h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .why_choose_text p {
+    font-size: 14px;
+  }
+  .why_choose_1 {
+    width: 4rem;
+    height: 5rem;
+  }
+  .why_choose_new {
+    width: 100%;
+    height: 17rem;
+  }
+  .index_link {
+    color: #fa517d !important;
+  }
+  .index_link2 {
+    margin-right: 15px;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .logo {
+    padding-left: 1rem;
+  }
+  .index_nav_bg {
+    padding: 0;
+    border-bottom: 1px solid #fa517d;
+  }
+  .banner_top_div {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .banner_text {
+    text-align: center;
+  }
+  .banner_text h3 {
+    font-size: 40px;
+  }
+  .navbar-collapse {
+    background-color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  .why_choose_new {
+    width: 29rem;
+    height: 23rem;
+  }
+  .page_contact {
+    padding: 0 0;
+  }
+  .number_top {
+    height: 9rem;
+  }
+  .number_img {
+    height: 3rem;
+    width: 3rem;
+  }
+  .payout_table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonials_bg {
+    padding: 2rem 0;
+  }
+  .index_info_text {
+    text-align: center;
+  }
+  .index_info_img {
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+  }
+  .why_choose {
+    padding-top: 4rem;
+  }
+  .why_choose_text {
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .navbar-collapse {
+    background-color: black;
+  }
+  .index_link2 {
+    margin-right: 15px;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .index_nav_bg {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .banner_text p {
+    font-size: 14px;
+  }
+  .banner_text h3 {
+    font-size: 35px;
+  }
+  .banner_btn a {
+    padding: 8px 20px;
+  }
+  .banner_img {
+    width: 22rem;
+    height: 17rem;
+  }
+  .banner_top_div {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .why_choose_new {
+    width: 100%;
+    height: 26rem;
+  }
+  .page_contact {
+    padding: 0 11rem;
+  }
+  .number_top {
+    height: 7rem;
+  }
+  .number_img {
+    height: 4rem;
+    width: 4rem;
+  }
+  .payout_table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonials_bg {
+    padding: 0;
+  }
+  .index_info_text {
+    text-align: unset;
+  }
+  .index_info_img {
+    width: 100%;
+    height: 28rem;
+  }
+  .why_choose {
+    padding-top: 8rem;
+  }
+  .why_choose_text {
+    text-align: unset;
+    padding-bottom: unset;
+  }
+  .index_nav_bg {
+    background-color: transparent;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2.2rem;
+  }
+  .navbar-collapse {
+    background-color: transparent;
+  }
+  .banner_top_div {
+    padding-top: 6rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .number_top {
+    height: 6rem;
+  }
+  .payout_table {
+    display: inline-table;
+  }
+  .index_info_img {
+    width: 100%;
+    height: 33rem;
+  }
+  .index_nav_bg {
+    background-color: transparent;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2.2rem;
+  }
+  .banner_img {
+    width: 38rem;
+    height: 29rem;
+  }
+  .banner_text h3 {
+    font-size: 50px;
+  }
+  .banner_text p {
+    font-size: 16px;
+  }
+  .banner_btn a {
+    padding: 12px 20px;
+  }
+}
+/*# sourceMappingURL=res.css.map */

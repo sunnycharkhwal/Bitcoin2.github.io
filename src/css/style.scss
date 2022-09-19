@@ -1,0 +1,893 @@
+@import "--var.scss";
+@import "--mixing.scss";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+code,
+kbd,
+pre,
+samp,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ol,
+ul,
+span,
+div,
+a,
+button,
+strong {
+  font-family: "Roboto", sans-serif !important;
+}
+.des_logo {
+  width: 13rem;
+}
+.navbar-dark .navbar-toggler {
+  outline: none !important;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: unset !important;
+}
+.form-control:focus {
+  box-shadow: unset !important;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+// nav
+.logo {
+  width: 10rem;
+}
+
+.index_nav_bg {
+  background-color: transparent;
+}
+.index_body {
+  @include img_bg;
+  background-image: url("../img/bg.png");
+}
+// nav end
+// index nav
+.mobile_open {
+  padding-right: 1rem !important;
+  i {
+    color: black;
+    font-size: 25px;
+  }
+}
+.index_nav_bg {
+  background-color: transparent;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2.2rem;
+}
+a.index_link {
+  position: relative;
+}
+
+a.index_link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: $c1;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.index_link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+.index_link {
+  font-size: 15px;
+  font-weight: 700;
+  color: $c0 !important;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-left: 18px;
+  transition: all 0.3s;
+  &:hover {
+    color: $c1 !important;
+  }
+}
+.index_link_active {
+  color: $c1 !important;
+}
+.index_link2 {
+  font-size: 15px;
+  font-weight: 700;
+  background: $c1;
+  color: white !important;
+  transition: all 0.3s;
+  margin-left: 2rem;
+  text-transform: capitalize;
+  &:hover {
+    color: white !important;
+    background-color: $c2;
+  }
+}
+// index nav end
+// banner
+.banner_img {
+  @include img_bg;
+  width: 38rem;
+  height: 29rem;
+  margin: auto;
+}
+.banner_text_row {
+  display: flex;
+  align-items: center;
+}
+.banner_text {
+  h3 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 18px;
+    span {
+      color: $c2;
+    }
+  }
+  p {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: gray;
+    margin-bottom: 18px;
+  }
+}
+.banner_btn {
+  a {
+    background: $c1;
+    color: white;
+    padding: 12px 20px;
+    transition: all 0.3s;
+    &:hover {
+      color: white;
+      background-color: $c2;
+    }
+  }
+}
+.banner_top_div {
+  padding-top: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+// banner end
+// Why Choose CrypCash ?
+.why_img {
+  @include img_bg;
+  width: 5rem;
+  height: 5rem;
+  margin: auto;
+}
+.why_div {
+  text-align: center;
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: $c2;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 16px;
+    color: gray;
+    text-transform: capitalize;
+  }
+}
+// Why Choose CrypCash end
+// top_title
+.top_title {
+  text-align: center;
+  margin-bottom: 3rem;
+  h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  p {
+    color: gray;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+}
+// top_title end
+// section_top
+.section_top {
+  margin-top: 2rem;
+}
+// section_top
+// Why Choose CrypCash
+.why_choose {
+  background-color: #e2e8fb;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+.why_choose_1 {
+  @include img_bg;
+  width: 7rem;
+  height: 7rem;
+  margin: auto;
+  position: absolute;
+  left: 39%;
+  top: -15%;
+}
+.why_choose_new {
+  @include img_bg;
+  width: 100%;
+  height: 26rem;
+  margin: auto;
+}
+.why_choose_text {
+  h3 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    span {
+      color: $c2;
+    }
+  }
+  p {
+    font-size: 16px;
+    text-transform: capitalize;
+    span {
+      color: $c2;
+    }
+  }
+}
+// Why Choose CrypCash end
+// benefits for Token Holders
+.benefits_img {
+  width: 5rem;
+  height: 5rem;
+  @include img_bg;
+}
+.benefits_text {
+  h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: $c2;
+  }
+  p {
+    font-size: 16px;
+    color: gray;
+  }
+}
+// benefits for Token Holders end
+// index info
+.index_info_img {
+  @include img_bg;
+  width: 100%;
+  height: 33rem;
+}
+.index_info_text {
+  h3 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 16px;
+    color: gray;
+    text-transform: capitalize;
+    text-align: justify;
+  }
+}
+.index_info_div {
+  margin-bottom: 2rem;
+}
+// index info end
+// Testimonials
+.testimonials_bg {
+  background-color: $c0;
+}
+.testimonials_img {
+  @include img_bg;
+  width: 100%;
+  height: 29rem;
+}
+.testimonials_title {
+  h4 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 30px;
+  }
+}
+.testimonials_col_div {
+  display: flex;
+  align-items: center;
+  padding: 0 6rem;
+}
+
+.testimonials_text_p {
+  font-size: 16px;
+  text-align: justify;
+  color: white;
+}
+.testimonials_line {
+  background: $c1;
+  height: 2px;
+  width: 8rem;
+  margin-bottom: 23px;
+}
+.testimonials_tex_icon {
+  @include img_bg;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+  border-radius: 100%;
+}
+.testimonials_tex_icon_text {
+  margin-top: 11px;
+  h5 {
+    font-size: 22px;
+    color: $c1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+  }
+  p {
+    color: white;
+    font-size: 14px;
+  }
+}
+// Testimonials end
+// faq
+.faq_img {
+  @include img_bg;
+  width: 100%;
+  height: 27rem;
+}
+.faq_header {
+  background: rgb(128, 147, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 147, 254, 1) 28%,
+    rgba(250, 81, 125, 1) 79%
+  );
+  border-radius: 30px !important;
+  border: none;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+.faq_btn {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  &:hover {
+    color: white;
+  }
+}
+.faq_card {
+  border: none;
+  margin-bottom: 1rem;
+}
+.faq_body {
+  font-size: 14px;
+  color: gray;
+  text-transform: capitalize;
+  text-align: justify;
+}
+// faq end
+// footer
+.footer_bg {
+  background-color: $c2;
+  padding: 3rem 0;
+  padding-bottom: 0;
+}
+.footer_logo {
+  @include img_bg;
+  width: 13rem;
+  height: 5rem;
+}
+.footer_hr {
+  background-color: #fff;
+}
+.footer_text {
+  color: white;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.footer_link {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.3s;
+  &:hover {
+    color: $c0;
+  }
+}
+.footer_icon {
+  background: white;
+  padding: 10px 17px;
+  font-size: 20px;
+  border-radius: 100%;
+  color: #fa517d;
+  transition: all 0.3s;
+  &:hover {
+    color: white;
+    background-color: $c0;
+  }
+}
+
+.footer_icon_2 {
+  padding: 10px 14px !important;
+}
+.footer_icon_3 {
+  padding: 10px !important;
+}
+.footer_icon_4 {
+  padding: 10px 15px !important;
+}
+.footer_link_ul {
+  li {
+    margin-bottom: 5px;
+  }
+}
+// footer end
+// contact us
+
+.contact_div_top {
+  background-color: $c0;
+}
+.contact_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  p {
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    span {
+      font-weight: 700;
+      color: $c1;
+    }
+    i {
+      color: white;
+      font-size: 35px;
+    }
+  }
+  a {
+    background-color: $c1;
+    margin-left: 2rem;
+    border-radius: 25px;
+    font-weight: 400;
+    color: white;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $c2;
+      color: white;
+    }
+  }
+}
+// contact us end
+// page top
+.page_top_img {
+  @include img_bg;
+}
+.page_top {
+  padding: 5rem 0;
+  h3 {
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: $c1;
+    text-transform: uppercase !important;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: $c0;
+  }
+}
+// page top
+// about page
+.about_page_text {
+  p {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: gray;
+    text-align: justify;
+  }
+}
+.about_page_2 {
+  h3 {
+    color: $c1;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .h3_line {
+    background-color: $c1;
+    height: 3px;
+    width: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 16px;
+    color: gray;
+    text-transform: capitalize;
+    text-align: justify;
+  }
+}
+.about_icon_div {
+  border: 2px solid $c1;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.about_icon {
+  @include img_bg;
+  width: 3rem;
+  height: 3rem;
+  margin: auto;
+}
+.about_icon_title {
+  h5 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+.about_icon_img_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.about_icon_img {
+  @include img_bg;
+  width: 100%;
+  height: 28rem;
+  border-radius: 10px;
+}
+// about page end
+// payout
+.td_bti {
+  color: $c1;
+}
+.table td,
+.table th {
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+.table thead th {
+  border-top: 2px solid #dee2e6;
+}
+.title_all {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.payout_table {
+  th {
+    background-color: $c0;
+    color: white;
+  }
+}
+// payout end
+// faq
+.faq_img {
+  @include img_bg;
+  width: 100%;
+  height: 33rem;
+  margin: auto;
+}
+.faq_title {
+  p {
+    color: black;
+    font-size: 20px;
+  }
+  h3 {
+    color: black;
+    color: #4960e4;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
+
+.faq_card {
+  margin-bottom: 10px;
+  border: none;
+}
+.faq_header {
+  background-color: white;
+  cursor: pointer;
+  a {
+    color: white !important;
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+}
+
+.faq_body {
+  padding: 35px;
+  font-size: 15px;
+  text-align: justify;
+}
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: unset;
+}
+#main #faq .card .card-header .btn-header-link {
+  color: black;
+  display: block;
+  text-align: left;
+  color: #222;
+}
+#main #faq .card .card-header .btn-header-link:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "\f067";
+}
+.w3-red,
+.w3-hover-red:hover {
+  color: white !important;
+  background-color: $c1 !important;
+}
+.faq_tab {
+  display: flex;
+  margin-bottom: 2rem;
+  button {
+    &:focus {
+      outline: none !important;
+    }
+    margin: auto;
+    border: 2px solid $c1;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: $c1;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}
+// faq end
+// Terms Of Services
+.terms {
+  h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+  }
+  p {
+    font-size: 15px;
+    color: #8492a6;
+    text-align: justify;
+  }
+  ul {
+    li {
+      font-size: 15px;
+      color: #8492a6;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+.terms_img {
+  @include img_bg;
+  width: 100%;
+  height: 28rem;
+  border-radius: 10px;
+}
+// Terms Of Services
+// number
+.number_bg {
+  background-color: #004273;
+  padding: 1rem 0;
+}
+.number_top {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+.number_text {
+  h5 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $c0;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #666;
+    a {
+      color: #666;
+    }
+  }
+}
+.number_img {
+  @include img_bg;
+  width: 4rem;
+  height: 4rem;
+  margin: auto;
+}
+.number_img_col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_contact {
+  padding: 0 11rem;
+  input {
+    height: 3.6rem;
+    border-radius: 25px;
+    padding: 6px 2rem;
+    margin-bottom: 1rem;
+  }
+  textarea {
+    border-radius: 25px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.form_title {
+  text-align: center;
+  margin: 3rem 0;
+  h3 {
+    font-size: 40px;
+    font-weight: 550;
+    color: $c1;
+    text-transform: capitalize;
+  }
+}
+.map_contact {
+  width: 100%;
+  height: 35rem;
+}
+// number end
+// mining page
+.mining_img {
+  @include img_bg;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mining_iner_div {
+  background: $c2;
+  width: 60vw;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  input {
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+}
+.mining_iner_logo {
+  @include img_bg;
+  width: 13rem;
+  height: 5rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.index_link3 {
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  background: $c1;
+  color: white !important;
+  transition: all 0.3s;
+  outline: none !important;
+  text-transform: capitalize;
+  &:hover {
+    color: white !important;
+    border: 1px solid white;
+    background-color: transparent;
+  }
+}
+// mining page
+// socle
+.socle_img_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socle_img {
+  @include img_bg;
+  width: 10rem;
+  height: 10rem;
+}
+.socle_top_div {
+  padding: 1rem;
+  background-color: #f8f8f8;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  ul {
+    margin-top: 1rem;
+    padding-left: 17px;
+    li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+      i {
+        color: $c2;
+        margin-right: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.socle_title {
+  h5 {
+    font-size: 25px;
+    text-transform: capitalize;
+  }
+}
+.socle_title_div {
+  padding-left: 1rem;
+}
+.as_card {
+  cursor: pointer;
+  button {
+    font-size: 18px;
+    color: black;
+  }
+}
+.as_body {
+  font-size: 16px;
+  color: #666;
+  text-align: justify;
+}
+// socle end

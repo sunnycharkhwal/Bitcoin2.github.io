@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <title>indix</title>
+    <script
+      src="https://kit.fontawesome.com/83387431ee.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="src/dist/css/style.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/res.css" />
+    <style>
+      body {
+        background-color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main-wrapper">
+      <header class="topbar" data-navbarbg="skin5">
+        <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+          <div class="navbar-header" data-logobg="skin5">
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ti-menu ti-close"></i
+            ></a>
+
+            <a class="navbar-brand" href="../index.html">
+              <span class="logo-text">
+                <img
+                  src="src/assets/images/logo.png"
+                  alt="homepage"
+                  class="light-logo des_logo"
+                />
+              </span>
+            </a>
+            <!-- <a class="topbartoggler d-block d-lg-none waves-effect waves-light" href="javascript:void(0)"
+            data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a> -->
+            <ul class="navbar-nav ml-auto d-block d-md-none">
+              <li class="nav-item dropdown">
+                <a
+                  class="
+                    nav-link
+                    dropdown-toggle
+                    text-muted
+                    waves-effect waves-dark
+                    pro-pic
+                  "
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><img
+                    src="src/assets/images/users/1.png"
+                    alt="user"
+                    class="rounded-circle"
+                    width="31"
+                /></a>
+                <div
+                  class="
+                    dropdown-menu dropdown-menu-right
+                    user-dd
+                    animated
+                    my_new_li_mob
+                  "
+                >
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="navbar-collapse collapse"
+            id="navbarSupportedContent"
+            data-navbarbg="skin5"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="
+                    nav-link
+                    dropdown-toggle
+                    text-muted
+                    waves-effect waves-dark
+                    pro-pic
+                  "
+                  href=""
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  ><img
+                    src="src/assets/images/users/1.png"
+                    alt="user"
+                    class="rounded-circle"
+                    width="31"
+                /></a>
+                <div class="dropdown-menu dropdown-menu-right user-dd animated">
+                  <a class="dropdown-item" href="setting.html"
+                    ><i class="mdi mdi-settings m-r-5 m-l-5"></i>Setting</a
+                  >
+                  <a class="dropdown-item" href="javascript:void(0)"
+                    ><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a
+                  >
+                </div>
+              </li>
+              <li
+                class="
+                  my_new_li
+                  d-none d-xxl-none d-xl-none d-lg-none d-md-block
+                "
+              >
+                <a class="nav-toggler" href="javascript:void(0)"
+                  ><i class="ti-menu ti-close"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <aside class="left-sidebar" data-sidebarbg="skin5">
+        <div class="scroll-sidebar">
+          <nav class="sidebar-nav">
+            <ul id="sidebarnav" class="p-t-30">
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="index.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-view-dashboard"></i
+                  ><span class="hide-menu">Dashboard</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="plandetails.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-library-plus"></i
+                  ><span class="hide-menu">Buy hashpower</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="finance.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-history"></i
+                  ><span class="hide-menu">Finance transactions</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="upgrades.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-cart"></i
+                  ><span class="hide-menu">My orders</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="visits.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-google-earth"></i
+                  ><span class="hide-menu">Visits</span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="refferal.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-access-point"></i
+                  ><span class="hide-menu">Affiliate Program </span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="setting.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-settings"></i>
+                  <span class="hide-menu">Setting </span></a
+                >
+              </li>
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="bounty.html"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-deviantart"></i>
+                  <span class="hide-menu">Bounty Program </span></a
+                >
+              </li>
+              <div class="nav_offer_div">
+                <div class="nav_offer_title_div">
+                  <p class="mb-0">
+                    Affiliate Program <br />
+                    <span>30%</span>
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    You can invite your friends or share your referral link on
+                    social networks, blogs or forums online.
+                  </p>
+                </div>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+      <div class="page-wrapper">
+        <section class="main_section">
+          <div>
+            <div class="plandetails_title_div">
+              <h3>Affiliate Program</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Aliquid, quisquam.
+              </p>
+            </div>
+          </div>
+          <div class="visits_div">
+            <div class="mb-4">
+              <label>General information</label>
+              <div class="refferal_div_top">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div>
+                      <div class="index_number_div_p1_div">
+                        <p class="mb-1">Referral code</p>
+                      </div>
+                      <div class="refferal_div">
+                        <p>106705</p>
+                      </div>
+                      <div class="d-flex">
+                        <a href="#" class="refferal_link"
+                          >https://minebtc.io/signin?referral=106705</a
+                        >
+                        <div>
+                          <i class="far fa-copy ml-3 refferal_link2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+                    <div>
+                      <div class="index_number_div_p1_div">
+                        <p class="mb-1">Referrals</p>
+                      </div>
+                      <div class="refferal_div">
+                        <p>0</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-1 col-lg-1 col-md-1 col-sm-12 col-12">
+                    <div>
+                      <div class="index_number_div_p1_div">
+                        <p class="mb-1">upgrade</p>
+                      </div>
+                      <div class="refferal_div">
+                        <p>0</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div>
+                      <div class="index_number_div_p1_div">
+                        <p class="mb-1">Paid</p>
+                      </div>
+                      <div class="refferal_div">
+                        <p>BTC 0.00000000</p>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#" class="refferal_link">$0.00</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div>
+                      <div class="index_number_div_p1_div">
+                        <p class="mb-1">Accrued</p>
+                      </div>
+                      <div class="refferal_div">
+                        <p>BTC 0.00000000</p>
+                      </div>
+                    </div>
+                    <div>
+                      <a href="#" class="refferal_link">$ 0.00000000</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label class="mb-3">Referral List</label>
+              <div class="finance_div2">
+                <div class="mr-3 mt-2">Search:</div>
+                <div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <table class="table text-center my_tabel_main_div">
+                <thead>
+                  <tr class="visits_tr">
+                    <th scope="col">Date</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">USER</th>
+                    <th scope="col">REFERRING URL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">2021-09-25 06:19:54</th>
+                    <td>221261</td>
+                    <td class="text-capitalize">Name</td>
+                    <td>https://minebtc.io/</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2021-09-25 06:19:54</th>
+                    <td>221261</td>
+                    <td class="text-capitalize">Name</td>
+                    <td>https://minebtc.io/</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2021-09-25 06:19:54</th>
+                    <td>221261</td>
+                    <td class="text-capitalize">Name</td>
+                    <td>https://minebtc.io/</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="src/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="src/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="src/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="src/dist/js/sidebarmenu.js"></script>
+    <script src="src/dist/js/custom.min.js"></script>
+  </body>
+</html>
